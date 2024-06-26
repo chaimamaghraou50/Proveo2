@@ -1,0 +1,63 @@
+<!--Page Header Start -->
+<div class="container-fluid page-headerproduct py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+  <div class="container py-5">
+      <h1 class="display-3 text-white animated slideInRight">PROVEO GX5 20W-40</h1>
+      <nav aria-label="breadcrumb">
+          <ol class="breadcrumb animated slideInRight mb-0">
+              <li class="breadcrumb-item"><a href="#">Home</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Produits</li>
+          </ol>
+      </nav>
+  </div>
+</div>
+<!-- Page Header End -->
+
+
+  <main>
+
+    <div class="card" [(ngModel)]="essence">
+      <div class="card__title">
+        <div class="icon">
+          <a href="#"><i class="fa fa-arrow-left"></i></a>
+        </div>
+
+      </div>
+      <div class="card__body">
+        <div class="half">
+          <div class="featured_text">
+            <h1>{{essence.titre}}</h1>
+          </div>
+          <div class="image">
+            <img src={{essence.image}} alt="">
+          </div>
+        </div>
+        <div class="half">
+          <div class="description">
+            <p>{{essence.description}}</p>
+          </div>
+          <span class="stock"><i class="fa fa-pen"></i> In stock</span>
+          <div class="reviews">
+            <ul class="stars">
+              <li><i class="fa fa-star"></i></li>
+              <li><i class="fa fa-star"></i></li>
+              <li><i class="fa fa-star"></i></li>
+              <li><i class="fa fa-star"></i></li>
+              <li><i class="fa fa-star-o"></i></li>
+            </ul>
+            <span>(64 reviews)</span>
+          </div>
+        </div>
+      </div>
+      <div class="card__footer">
+        <div class="recommend">
+          <p>Recommended by</p>
+          <h3>Andrew Palmer</h3>
+        </div>
+        <div class="action">
+          <button (click)=" generatePdf()" >Télécharger PDF</button>
+
+        </div>
+      </div>
+    </div>
+  </main>
+

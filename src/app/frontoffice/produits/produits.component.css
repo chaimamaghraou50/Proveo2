@@ -1,0 +1,111 @@
+/*other cercle css */
+
+
+.card-container {
+  display: inline-flex;
+  justify-content: center;
+  position:relative;
+  margin-left: 120px;
+  z-index: 20;
+
+}
+
+.container {
+margin-top: 80px;
+margin-left: 50px;
+  width: 290px;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle {
+  border-radius: 50%;
+  position: relative;
+}
+
+.circle-border {
+
+  width: 100%;
+  height: 90%;
+  border: 3px solid #a4a2a2;
+}
+
+.circle-hover {
+margin-left: 20px;
+margin-top: 20px;
+  width: 85%;
+  height: 85%;
+  background-color: #8f8f8c;
+  transition: background-color 0.8s;
+}
+
+.circle-border:hover .circle-hover {
+  background-color: #bf0323;
+}
+
+.circle-image {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 120%;
+  height: 140%;
+  background-size: cover;
+  background-position: center;
+  pointer-events: none;
+}
+.circle-text{
+margin-top:60px;
+margin-left:50px;
+width: 397.4px;
+height: 63.4px;
+overflow: hidden;
+font-family: Inter;
+font-size: 20px;
+font-weight: bold;
+text-align: left;
+color:#0D1B4C;}
+
+
+
+
+
+body { margin: 0px; padding: 0px; font-family:"Arial"; overflow-x:hidden; }
+
+img { position: absolute; display: block; margin: 0px; border: none; padding: 0px; }
+
+
+
+
+#content-container { display: block; position: relative; width: 1440px; width: 1440px; height: 1024px; overflow: hidden; display: block;  margin-left: auto; margin-right: auto;  }
+
+
+
+
+
+
+/* Add your custom CSS here */
+
+
+
+
+
+
+ /*header*/
+ .page-headerproduct{
+  background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../../../assets/img/4.jpeg) center center no-repeat;
+  background-size: cover;
+}
+
+.page-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header .breadcrumb-item,
+.page-header .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}
+

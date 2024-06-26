@@ -1,0 +1,77 @@
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.card {
+  width: 260px;
+  height: 260px;
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #ffffff;
+  transition: border-color 0.3s;
+  margin: 50px;
+
+}
+
+.card:hover {
+  border-color: #c50b27
+  ;
+}
+
+.card-image {
+  width: 80%;
+  height: 80%;
+  margin-top: 20px;
+  margin-left: 20px;
+  object-fit: contain;
+  transition: transform 0.3s;
+
+}
+
+.card:hover .card-image {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  position: absolute;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background-color: rgba(255, 255, 255, 0.7);
+ padding: 5px;
+ text-align: center;
+ color: rgb(0, 0, 0);
+ font-weight: bold;
+ }
+ #title {
+
+ margin-top: 50px;
+  left: 0;
+  right: 0;
+  height: 50px;
+
+  padding: 10px;
+  text-align: center;
+  color: #02245B;
+  font-weight: bold;
+  font-size: 24px;
+  text-decoration: underline; /* add this line to underline the title */
+  text-underline-position: under; /* add this line to ensure the underline is closer to the text */
+  z-index: 1000;
+ }
+ .page-headerproduct{
+  background: linear-gradient(to right, rgba(2, 36, 91, 1) 0%, rgba(2, 36, 91, 0) 100%), url(../../../assets/img/car.jpg) center center no-repeat;
+  background-size: cover;
+}
+
+.page-header .breadcrumb-item+.breadcrumb-item::before {
+    color: var(--light);
+}
+
+.page-header .breadcrumb-item,
+.page-header .breadcrumb-item a {
+    font-size: 18px;
+    color: var(--light);
+}

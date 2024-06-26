@@ -1,0 +1,56 @@
+
+ .container form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f8f9fa;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.container form label {
+  margin-right: 5px;
+}
+
+.container form .form-control {
+  margin-right: 10px;
+}
+
+.container form button {
+  margin-left: auto;
+}
+
+.container {
+  margin-top: 80px;
+}
+
+.form-inline {
+  margin-left: 53px;
+}
+
+.form-control {
+  outline: none;
+  box-shadow: none;
+  border: none;
+  background-color: #ffffff;
+  height: 40px;
+  text-align: center;
+}
+
+select {
+  font-size: 14px;
+  color: #000000;
+  text-transform: capitalize;
+}
+
+.welcome-btn.model-search-btn {
+  width: 160px;
+  margin-top: 20px;
+}
+
+
+
+
+
+
+/* language button*/
